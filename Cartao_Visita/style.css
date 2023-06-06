@@ -5,10 +5,12 @@
   font-family: Arial;
 }
 body{
-  background: #ECF0E9; /* 1 tom antes do branco principal */
+  background: #D9E2D3; /* 3 tom antes do branco principal */
+  /* background: url(../Img/Background/BackgroundFundo.jpg)  repeat-x fixed; */
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  word-wrap: break-word;
 }
 a{
   text-decoration: none;
@@ -16,9 +18,15 @@ a{
 @font-face {
   font-family: logo;
   src: Url("../Fonte/Angelia Davitson.otf");
-}.nomeNegocio{
+}#nomeNegocio1{
   font-family: logo;
-  font-size: 26px;
+  font-size: 24px;
+}
+#nomeNegocio2{
+  font-size: 20px;
+}
+.subNomeNegocio{
+  font-size: 18px;
 }
 
 .pagina{
@@ -45,13 +53,19 @@ a{
 .nomeNegocio{
   text-align: center;
   color: #416f24; /* tom princial original */
-  padding: 10px 5px;
-  font-family: logo;
+  padding-top: 30px;
 }
-
+#nomeNegocio2{
+  padding-top: 0px;
+}
+.subNomeNegocio{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+}
 .conteudoLinks{
   display: grid;
-  margin: 5px;
+  padding: 10px 5px 5px 5px;
 }
 .descricaoLink{
   display: flex;
